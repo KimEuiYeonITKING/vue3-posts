@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h2>게시글 등록</h2>
+		<h2>게시글 수정</h2>
 		<hr class="my-4" />
 		<form @submit.prevent>
 			<div class="mb-3">
@@ -14,24 +14,26 @@
 			<div class="pt-4">
 				<button
 					type="button"
-					class="btn btn-outline-dark me-2"
-					@click="goListPage"
+					class="btn btn-outline-danger me-2"
+					@click="goDetailPage"
 				>
-					목록
+					취소
 				</button>
-				<button class="btn btn-primary">저장</button>
+				<button class="btn btn-primary">수정</button>
 			</div>
 		</form>
 	</div>
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 
 const router = useRouter();
+const route = useRoute();
+const id = route.params.id;
 
-const goListPage = () => {
-	router.push({ name: 'PostList' });
+const goDetailPage = () => {
+	router.push({ name: 'PostDetail', params: { id } });
 };
 </script>
 
