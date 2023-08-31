@@ -1,64 +1,45 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "제목1",
-      "content": "내용1",
-      "createdAt": "2023-01-01"
-    },
-    {
-      "id": 2,
-      "title": "제목2",
-      "content": "내용2",
-      "createdAt": "2023-01-02"
-    },
-    {
-      "id": 3,
-      "title": "제목3",
-      "content": "내용3",
-      "createdAt": "2023-01-03"
-    },
-    {
-      "id": 4,
-      "title": "제목4",
-      "content": "내용4",
-      "createdAt": "2023-01-04"
-    },
-    {
-      "id": 5,
-      "title": "제목5",
-      "content": "내용5",
-      "createdAt": "2023-01-05"
-    },
-    {
-      "id": 6,
-      "title": "제목6",
-      "content": "내용6",
-      "createdAt": "2023-01-06"
-    },
-    {
-      "id": 7,
-      "title": "제목7",
-      "content": "내용7",
-      "createdAt": "2023-01-07"
-    },
-    {
-      "id": 8,
-      "title": "제목8",
-      "content": "내용8",
-      "createdAt": "2023-01-08"
-    },
-    {
-      "id": 9,
-      "title": "제목9",
-      "content": "내용9",
-      "createdAt": "2023-01-09"
-    },
-    {
       "title": "등록해보시겠어요",
       "content": null,
       "createdAt": 1693445840459,
       "id": 10
+    },
+    {
+      "title": "동작동작 동작구",
+      "content": "구슬동작구",
+      "id": 11
+    },
+    {
+      "title": "페이징 확인",
+      "content": "페페페페이징",
+      "createdAt": 1693459757937,
+      "id": 12
+    },
+    {
+      "title": "다음장 페이징",
+      "content": "페이징",
+      "createdAt": 1693459766593,
+      "id": 13
+    },
+    {
+      "title": "123",
+      "content": "123",
+      "createdAt": 1693461493224,
+      "id": 14
+    },
+    {
+      "title": "345",
+      "content": "345",
+      "createdAt": 1693461497681,
+      "id": 15
+    },
+    {
+      "title": "수정했다",
+      "content": "수정",
+      "createdAt": 1693461503671,
+      "id": 16
     }
   ]
 }
